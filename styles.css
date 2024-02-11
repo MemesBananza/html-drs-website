@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans');
+
+/* Body */
+body {
+    font-family: Montserrat;
+}
+/* Header */
+header {        
+    background-color: #3b3a39;
+    padding: 80px;
+    text-align: left;   
+    color: black;
+    font-size: 40px;  
+    font: 700;
+    margin: 0%;
+    height: 100%;
+    
+}
+header p {
+    font-size: 20px;
+}
+header img {
+    float: right;
+    margin-top: -200px;
+}
+header h6 {
+    margin-top: -50px;
+}
+/* About */
+.about h1 {
+    margin-left: 20px;
+}
+.about p {
+    margin-left: 35px;
+}
+.about img {
+    float: right;
+    margin-top: -80px;
+    margin-right: 80px;
+}
+/* Products */
+    /* Starter */
+    .products-wrapper h1 {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .products {
+        margin-left: 35px;
+    
+    }
+    .products img {
+        float: right;
+        margin-top: -70px;
+        margin-right: 80px;
+    }
+    /* Add more */
+/* Footer */
+footer {
+    margin-top: 150px;
+    background-color: #3b3a39;
+    padding: 10px;
+    padding-bottom: -20px;
+    font-family: PT Sans;
+}
+footer h6 {
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: small;
+    padding-bottom: -60px;
+    text-align: center;
+    
+}
+footer a {
+    text-decoration: underline;
+    color: black;
+}
+footer a:hover {
+    color: #673ab7 ;
+    text-decoration: wavy;
+}
+/* Links */
+.links {
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: -80px;
+}
+.links .links_buttons a {
+    color: black;
+    flex-wrap: wrap;
+}
+.links .links_buttons {
+    text-indent: 5px;
+}
+.links .links_buttons .yt:hover {
+    color: #ff0000; 
+}
+.links .links_buttons .dc:hover {
+    color: 	#7785cc;
+}
+/* Navbar */
+.navbar {
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  .navbar a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
